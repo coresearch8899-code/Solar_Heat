@@ -1,0 +1,8 @@
+﻿Aspect,Statement used in this study
+Denominator,"Model-attributed temperature-driven load, Σt ΔLheat,t, not total load"
+Numerator,"PV energy allocated to offset that load in the same interval under a stated rule (heat priority, proportional, order-averaged or base-load priority)"
+Difference from self-consumption,"Self-consumption gives the share of PV output used on site; it does not show how much of that PV offsets temperature-driven load. Here it was 99.8–100% in every season and year, so it cannot discriminate between hedging outcomes"
+Difference from self-sufficiency,"Self-sufficiency (and the solar fraction) uses total load as its base and does not separate temperature-driven load from base load. SHHRpr/SS gives the coincidence enrichment, i.e. how much better PV is aligned with temperature-driven load than with load in general"
+Difference from renewable fraction and HEOR,Annual-balance ratios that ignore timing; their gap to SHHRhp is the timing penalty
+Decision use,"To judge how far PV hedges the heat-driven energy burden, and to set this against the separate goal of peak protection (k*SHHR vs k*peak)"
+Not intended for,"Measuring chiller or HVAC electricity, or serving as a standard value for other hospitals"

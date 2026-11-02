@@ -1,0 +1,14 @@
+﻿Column,Description,Unit,Notes
+"zone_30min_series.csv (185,040 rows = 61,680 intervals × 3 zones)",,,
+interval_end_local_time,End of the 30-min interval,local time (UTC+7),YYYY-MM-DD hh:mm
+"zone, zone_kWp",Zone number (1–3) and installed capacity,"–, kWp","2,256.24, 207.06 and 49.90 kWp"
+pv_kWh,"PV energy delivered, Et",kWh,"Difference of lifetime counters, Eq. (S1); empty if rejected by QC"
+gross_load_kWh,"Gross electrical load, Lt",kWh,E + B − X with corrected import and export
+"grid_import_kWh, export_kWh","Grid import Bt and export Xt, corrected for the CT-ratio error",kWh,Portal value ÷ 1.20 (Section 2.1 of the main article)
+"ghi_W_m2, ambient_temp_C",Irradiance and ambient temperature of the zone weather sensor,"W m−2, °C",Night-time irradiance set to 0 when missing
+"pv_power_kW, plant_status",Instantaneous PV power and portal status,"kW, –","normal, alarm or fault"
+"hospital_30min_series.csv (61,680 rows)",,,
+"pv_kWh, gross_load_kWh, grid_import_kWh, export_kWh",Hospital totals of the zone values,kWh,Formed only when all three zones passed QC; export 0.10% of PV over the record
+grid_import_portal_raw_kWh,Grid import as recorded by the portal,kWh,Uncorrected; for the sensitivity case and the invoice check
+"ambient_temp_C, ghi_W_m2",Median of the three zone sensors,"°C, W m−2",
+non_working_day,Weekend or Thai public holiday,0/1,holidays library
