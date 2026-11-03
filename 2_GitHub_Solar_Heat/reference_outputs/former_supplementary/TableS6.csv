@@ -1,0 +1,10 @@
+﻿Metric,Reference,Heatwave,Difference,p (Wilcoxon)
+Tmax (°C),33.4,37.3,+3.9 °C,< 0.001
+Insolation H (kWh m−2 d−1),4.93,5.51,+11.9%,< 0.001
+Gross load L (MWh d−1),38.70,42.65,+10.2%,< 0.001
+Temperature-driven load ΔLheat (MWh d−1),13.81,18.58,+34.5%,< 0.001
+PV E (MWh d−1),8.72,9.85,+12.9%,< 0.001
+Daily gross peak (kW),"2,453","2,741",+11.7%,< 0.001
+Daily net peak (kW),"1,818","1,950",+7.3%,< 0.001
+SHHRhp (%),49.4,47.3,−2.1 pp,0.053
+SHHRpr (%),25.0,25.4,+0.4 pp,0.38

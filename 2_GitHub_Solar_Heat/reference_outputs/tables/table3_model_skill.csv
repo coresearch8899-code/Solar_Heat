@@ -1,0 +1,7 @@
+Test set,Intervals,R2,CV(RMSE) (%),NMBE (%)
+"Leave-one-year-out, 2023","14,011",0.766,19.4,-0.9
+"Leave-one-year-out, 2024","17,119",0.947,8.6,2.5
+"Leave-one-year-out, 2025","17,358",0.936,9.5,1.8
+"Leave-one-year-out, 2026","11,942",0.953,8.1,-1.3
+Mean of complete years (2024–2025),–,0.941,9.1,2.1
+"Forward holdout (train 2023–2024, test 2025–2026)","29,300",0.927,10.1,4.5

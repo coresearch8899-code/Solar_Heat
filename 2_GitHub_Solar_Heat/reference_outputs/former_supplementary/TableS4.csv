@@ -1,0 +1,14 @@
+﻿Indicator,All,Cool-dry,Hot-dry,Wet,2023a,2024,2025,2026a
+"Self-consumption, SC (%)",100.0,99.8,100.0,100.0,99.9,100.0,99.9,100.0
+"Self-sufficiency = solar fraction, SS = SF (%)",20.6,23.3,22.0,18.4,20.9,21.7,20.4,19.1
+"Renewable fraction, RF (%)",20.6,23.4,22.0,18.4,20.9,21.7,20.4,19.1
+"Load-matching index, LMI (%)",16.0,18.1,16.8,14.1,16.0,16.8,15.9,14.8
+Temperature-driven share of load (%),30.8,14.9,37.3,34.6,35.8,30.4,27.3,30.8
+SHHRpr (%),23.0,26.9,24.7,21.0,23.4,24.0,22.7,21.4
+SHHRhp (%),48.1,57.8,47.8,46.2,45.5,49.4,50.1,47.2
+"Coincidence enrichment, SHHRpr/SS (–)",1.11,1.15,1.12,1.14,1.12,1.10,1.11,1.12
+Night share of temperature-driven energy (%),33.5,30.9,34.2,33.6,34.8,33.9,32.3,32.6
+30-min peak-proxy reduction (kW),697,592,832,677,645,772,746,577
+30-min peak-proxy reduction (%),23.1,23.8,25.4,21.1,21.1,25.9,24.7,19.0
+Monthly net peaks at or after 15:00 (%),64,67,67,61,50,83,67,50
+Complete months for peak metrics,42,12,12,18,10,12,12,8

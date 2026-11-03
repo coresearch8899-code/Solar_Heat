@@ -1,0 +1,13 @@
+Source of uncertainty,Temp.-driven share (%),SHHR_pr (%),SHHR_hp (%),k*_imp at +2 degC,k*_peak at +2 degC,k*_SHHR at +2 degC
+"Reference (GBM, Tn = 20.0 degC, corrected data)",30.9,22.9,47.9,1.58,3.30,1.31
+"Sampling + model refits (95% CI, bootstrap ensemble)",29.0–33.6,22.3–24.0,46.2–49.9,1.55–1.59,2.86–3.52,1.28–1.32
+Model family (six families),27.8–33.3,17.2–24.1,38.5–51.4,1.50–1.58,1.92–3.30,1.23–1.33
+Neutral temperature (Tn = 18.0–22.0 degC),27.5–36.6,22.7–23.6,44.2–51.0,indep.,indep.,1.27–1.35
+Seasonal control (day-of-year harmonics),24.4,22.6,52.4,–,–,–
+"Sampling of months (95%, month bootstrap; k*_peak > 6 right-censored)",–,–,–,1.55–1.62,2.54–5.03,–
+Peak definition (top-3 mean; all-hours maximum),–,–,–,indep.,3.06–3.34,–
+Allocation rule (bounds; order-averaged),–,2.5–47.9; 25.2,upper bound,indep.,indep.,1.14 (prop.)
+Scenario: PV temperature coefficient (gamma = -0.30 to -0.45 %/degC),–,–,–,< 0.01,±0.01,< 0.01
+Metering: uncorrected portal data (x1.20),30.8,20.6,44.0,1.69,3.68,1.31
+Import computed for the hospital as a whole (zones pooled),–,–,–,1.57,3.18,–
+Suspected counter misallocations corrected (pair mean),–,–,–,1.58,3.29,–
